@@ -12,7 +12,7 @@ function App() {
     <Container>
       <MyNav />
       <MyJumbotron />
-      <BookList props={fantasy} />
+      <BookList books={fantasy} />
       <MyFooter />
     </Container>
   );
